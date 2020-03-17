@@ -1,0 +1,32 @@
+.movie-card {
+  cursor: pointer;
+  z-index: 1;
+  transition: transform 0.2s ease-in-out;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+}
+
+.movie-details {
+  background: rgba(0, 0, 0, 0.68);
+}
+
+.active {
+  text-decoration: underline;
+  opacity: 0.8;
+}
+
+.btns {
+  color: #fff;
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
+.result:hover {
+  background: rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease-in-out;
+}
